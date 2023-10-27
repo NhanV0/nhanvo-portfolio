@@ -105,7 +105,7 @@ html {
 }
 
 body {
-  margin: 0 0 var(--header-height) 0;
+  margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
@@ -441,6 +441,9 @@ img {
   font-size: 2rem;
   color: var(--first-color);
 }
+.skills__icon {
+  margin-right: 40px;
+}
 
 .skills__title {
   font-size: var(--h3-font-size);
@@ -526,8 +529,8 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
-  display: flex;
-  justify-content: space-evenly;
+  display: table-cell;
+  justify-content: right;
   margin-bottom: var(--mb-2);
 }
 .qualification__button {
@@ -832,8 +835,8 @@ img {
     display: flow;
   }
   .qualification__tabs {
-    display: flow;
-    margin-left: var(--mb-2);
+    display: grid;
+    justify-content: center;
   }
   .services__container {
     display: flow;
@@ -856,6 +859,12 @@ img {
   }
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .qualification__sections {
+    margin-left: 30px;
+  }
+  .qualification__button {
+    margin-left: 25px;
   }
 }
 
@@ -954,6 +963,9 @@ img {
   }
   .qualification__sections {
     grid-template-columns: 0.5fr;
+  }
+  .qualification__button {
+    margin-left: 27px;
   }
   .services__content {
     margin-right: var(--mb-2);
