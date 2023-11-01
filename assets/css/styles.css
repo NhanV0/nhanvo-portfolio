@@ -997,7 +997,7 @@ img {
     margin-right: 4rem;
   }
   .portfolio__img {
-    width: 420px;
+    width: 700px;
   }
   .nav__item {
     font-size: larger;
@@ -1015,6 +1015,9 @@ img {
     display: inline-flex;
     margin-left: 170px;
   }
+  .portfolio__img {
+    width: 900px;
+  }
 }
 
 /* For large devices */
@@ -1023,6 +1026,9 @@ img {
     display: inline-flex;
     margin-left: 400px;
   }
+  .portfolio__img {
+    width: 1000px;
+  }
 }
 
 /* For large devices */
@@ -1030,5 +1036,9 @@ img {
   .qualification__container {
     display: inline-flex;
     margin-left: 1200px;
+  }
+
+  .portfolio__img {
+    width: 1200px;
   }
 }
