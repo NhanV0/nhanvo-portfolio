@@ -1,4 +1,4 @@
-https://nhanv0.github.io/Nhan-s-Portfolio/](https://nhanv0.github.io/nhanvo-portfolio/
+https://nhanv0.github.io/nhanvo-portfolio/
 - Responsive Personal Portfolio Website Using HTML CSS & JavaScript
 - Smooth scrolling in each section.
 - Includes a light and dark mode.
